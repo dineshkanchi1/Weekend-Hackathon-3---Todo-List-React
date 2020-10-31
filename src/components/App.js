@@ -33,7 +33,6 @@ function App() {
   };
   return (
     <div id="main">
-      <h1>Todo List</h1>
       <input type="text" id="task" />
       <button id="btn" onClick={onAddBtn}>
         Add
