@@ -19,11 +19,10 @@ function App() {
   };
   const onSaveBtn = (index) => {
     let list = [...taskList];
-    list[index].edit = false;
-    setTaskList(list);
     let textContainer = document.getElementById("edit");
     let text = textContainer.value;
     if (text === "") return;
+    list[index].edit = false;
     list[index].text = text;
     setTaskList(list);
   };
