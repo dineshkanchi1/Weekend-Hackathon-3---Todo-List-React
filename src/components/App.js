@@ -109,7 +109,7 @@ function App() {
             </button>
             {ele.show === true ? (
               <>
-                <input type="text" id="ed" className="editTask"></input>
+                <input type="text" id="ed" className="editTsk"></input>
                 <button onClick={() => handlesave(index)} className="saveTask">
                   save
                 </button>
